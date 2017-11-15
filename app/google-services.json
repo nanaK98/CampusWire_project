@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "51168189170",
+    "firebase_url": "https://campuswire-4795d.firebaseio.com",
+    "project_id": "campuswire-4795d",
+    "storage_bucket": "campuswire-4795d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:51168189170:android:0b189decdf7927db",
+        "android_client_info": {
+          "package_name": "com.cpen200.campuswire"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "51168189170-n02pipo5hm29ak6qcubm5v730fgjmnjs.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.cpen200.campuswire",
+            "certificate_hash": "dc2b15af5cd1f449b3b033cccc82674c0b16b539"
+          }
+        },
+        {
+          "client_id": "51168189170-lb3e83hm52qnfg7062em2rrru5051gav.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAGBkSg4MCY0MSl1yxQLStKuGoiNN5vxBo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "51168189170-lb3e83hm52qnfg7062em2rrru5051gav.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

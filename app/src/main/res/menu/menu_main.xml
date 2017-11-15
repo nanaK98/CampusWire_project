@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.cpen200.campuswire.MainActivity">
+    <item
+        android:id="@+id/addIcon"
+        android:icon="@drawable/addicon"
+        android:title="AddIcon"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/emailicon"
+        android:icon="@drawable/emailicon"
+        android:title="Emailicon"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/logout"
+        android:orderInCategory="100"
+        android:title="Logout"
+        app:showAsAction="never" />
+
+</menu>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#D5DBDB"
+    android:orientation="vertical"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="64dp"
+    android:paddingTop="16dp"
+    tools:context="com.cpen200.campuswire.SingleInstaActivity">
+
+    <ImageView
+        android:id="@+id/singleImageView"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginLeft="40dp"
+        android:scaleType="fitCenter" />
+
+    <TextView
+        android:id="@+id/singleTitle"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/singleDesc"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="30dp"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/singleDeleteButton"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="90dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/editshape"
+        android:backgroundTint="#D3D3D3"
+        android:onClick="deleteButtonClicked"
+        android:text="Delete Post" />
+
+</LinearLayout>

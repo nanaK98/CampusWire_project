@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/c3"
+    android:fitsSystemWindows="true">
+
+    <LinearLayout xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/activity_post"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingBottom="16dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingTop="16dp"
+        tools:context="com.cpen200.campuswire.PostActivity">
+
+        <ImageButton
+            android:id="@+id/imageButton"
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:layout_marginLeft="50dp"
+            android:background="@drawable/addimage"
+            android:onClick="imageButtonClicked"
+            android:scaleType="centerCrop" />
+
+        <EditText
+            android:id="@+id/editName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/editshape"
+            android:hint="Caption"
+            android:padding="10dp" />
+
+        <EditText
+            android:id="@+id/editDesc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/editshape"
+            android:hint="Tell your Story"
+            android:padding="10dp" />
+
+        <Button
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="90dp"
+            android:layout_marginTop="50dp"
+            android:onClick="submitButtonClicked"
+            android:text="Post" />
+
+    </LinearLayout>
+
+
+</ScrollView>
